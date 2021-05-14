@@ -1,17 +1,110 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title>Main</title>
 	<meta charset="utf-8">
 	<link rel="icon" href="http://simpleicon.com/wp-content/uploads/rocket.svg" type="image/svg" sizes="16x16">
-	<link rel="stylesheet" type="text/css" href="reset.css">
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/fonts.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-	<header>
-		<div>
-			<img src="images/logo.svg" alt="logo">
+	<header class="header-wraper">
+		<div class="container">
+			<a href="index.html" class="logo"><img src="images/logo.svg" alt="logo-image"></a>
+			<nav class="navigation">
+				<ul>
+					<li class="nav-li"><a href="index.html" class="nav-a">HOME</a></li>
+					<li class="nav-li"><a href="#" class="nav-a active">SHOP</a></li>
+					<li class="nav-li"><a href="#" class="nav-a">ABOUT</a></li>
+					<li class="nav-li"><a href="#" class="nav-a">BLOG</a></li>
+					<li class="nav-li"><a href="#" class="nav-a">CONTACT US</a></li>
+				</ul>
+			</nav>
 		</div>	
 	</header>
-</body>
+	<section>
+		<div class="image-wraper">
+			<img class="banner-image" src="images/banner.jpg" alt="banner-image">
+			<div class="banner-text">
+				<p class="banner-p">Lorium ipsum dolor sit amet</p>
+				<h1 class="banner-h1">Our Blog</h1>
+			</div>
+		</div>
+	</section>
+	<section>
+		<div class="container">
+			<p class="main-text">Popular Post</p>
+			<div class="article article1">
+				<img class="article-image" src="images/bag.jpg" alt="bag-image">
+				<h2 class="article-header">Three simple way to save a money 
+				lorium ipsum</h2>
+				<p class="article-text">A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, 
+				and feel the.</p>
+				<p class="more">READ MORE <span class="line"></span></p>
+				
+			</div>
+			<div class="article article2">
+				<img class="article-image" src="images/chair.jpg" alt="chair-image">
+				<h2 class="article-header">Three simple way to save a money 
+				lorium ipsum</h2>
+				<p class="article-text">A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, 
+				and feel the.</p>
+				<p class="more">READ MORE <span class="line"></span></p>
+			</div>
+			<div class="article article1">
+				<img class="article-image" src="images/magazine.jpg" alt="magazine-image">
+				<h2 class="article-header">Three simple way to save a money 
+				lorium ipsum</h2>
+				<p class="article-text">A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, 
+				and feel the.</p>
+				<p class="more">READ MORE <span class="line"></span></p>
+			</div>
+			<div class="article article2">
+				<img class="article-image" src="images/cactus.jpg" alt="cactus-image">
+				<h2 class="article-header">Three simple way to save a money 
+				lorium ipsum</h2>
+				<p class="article-text">A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, 
+				and feel the.</p>
+				<p class="more">READ MORE <span class="line"></span></p>
+			</div>
+			<button class="load-more">
+				LOAD MORE
+			</button> 
+		</div>
+		
+	</section>
+	<section>
+		<div class="black"></div>
+	</section>
+	<footer class="container">
+		<ul class="footer-ul"> <span class="ul-header"> COMPANY </span>
+			<li class="footer-li">Home</li>
+			<li class="footer-li">About Us</li>
+			<li class="footer-li">Shop</li>
+			<li class="footer-li">Blog</li>
+			<li class="footer-li">Contact Us</li>
+		</ul>
+		<ul class="footer-ul"><span class="ul-header"> SERVICE </span>	
+			<li class="footer-li">Support</li>
+			<li class="footer-li">Faq</li>
+			<li class="footer-li">Warranty</li>
+			<li class="footer-li">Live Chat</li>
+			<li class="footer-li">Privacy Policy</li>
+		</ul>
+		<ul class="footer-ul"><span class="ul-header"> ORDERS & RETURNS </span>
+			<li class="footer-li">Order</li>
+			<li class="footer-li">status</li>
+			<li class="footer-li">Shipping</li>
+			<li class="footer-li">Policy&Service</li>
+			<li class="footer-li">Cart</li>
+		</ul>
+		<ul class="footer-ul"><span class="ul-header last-header"> CPAYMENT ACCEPT </span>
+			<li class="last-li"><img class="li-image" src="images/amex.svg" alt="amex-logo"></li>
+			<li class="last-li"><img class="li-image" src="images/mc.svg" alt="mc-logo"></li>
+			<li class="last-li"><img class="li-image" src="images/visa.svg" alt="visa-logo"></li>
+		</ul>
+		<p class="copyright-text">Copyright @ 2017 l All Right Reserved</p>
+	</footer>
+</body> 
 </html>
